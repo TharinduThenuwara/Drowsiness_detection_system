@@ -20,12 +20,12 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 310,
-        "y": 280,
+        "x": 230,
+        "y": 260,
         "wires": [
             [
-                "98f0a19b0d094817",
-                "4b0da7fd1d7be369"
+                "4b0da7fd1d7be369",
+                "98f0a19b0d094817"
             ]
         ]
     },
@@ -80,7 +80,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 380,
+        "x": 320,
         "y": 460,
         "wires": [
             [
@@ -120,10 +120,11 @@
         "finalize": "",
         "libs": [],
         "x": 600,
-        "y": 320,
+        "y": 340,
         "wires": [
             [
-                "1875239de30194ee"
+                "1875239de30194ee",
+                "0e535275a01cc723"
             ]
         ]
     },
@@ -141,6 +142,20 @@
         "statusType": "auto",
         "x": 830,
         "y": 480,
+        "wires": []
+    },
+    {
+        "id": "0e535275a01cc723",
+        "type": "e-mail",
+        "z": "2baa905cdc3d49cf",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "secure": true,
+        "tls": true,
+        "name": "thenuwaratharindu325@gmail.com",
+        "dname": "",
+        "x": 1040,
+        "y": 240,
         "wires": []
     },
     {
